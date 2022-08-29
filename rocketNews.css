@@ -58,15 +58,33 @@ h2{
     height: 30.44px;
     /*left: 36px;
     top: 236px;*/
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #08C05E;
 }
 h3{
     width: 517px;
     height: 16px;
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
 
 }
 p{
     width: 647px;
     height: 38px;
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
     
 }
 
@@ -78,6 +96,58 @@ form{
     top: 388px;
     z-index: 3;
 }
+label{
+    
+    width: 133px;
+    height: 19px;
+    left: 36px;
+    top: 388px;
+    
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A8A8A8;
+    
+}
+.retanguloinput{
+    width: 5px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+    
+    background: #04D361;
+
+}
+
+input{
+    width: 798px;
+    height: 48px;
+    left: 36px;
+    top: 424px;
+
+    filter: drop-shadow(4px, 10px, 15px rgba(0, 0, 0, 0.5));
+}
+
+.retangulo{
+    display: inline;
+    /*position:absolute;*/
+    width: 48px;
+    height: 48px;
+    left: 786px;
+    top: 424px;
+    z-index: 4;
+
+    background-color: #8257E5;
+}
+.botao{
+    width: 24px;
+    height: 24px;
+    left: 789px;
+    top: 436px;
+    z-index: 4;
+}
 
 .linke{
     
@@ -87,4 +157,11 @@ form{
     left: 36px;
     top:522px;
     z-index: 3;
+
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8257E5;
 }
