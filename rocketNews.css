@@ -1,6 +1,15 @@
 *{
     margin: 0;
 }
+/*test*/
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
 .foto{
     position: absolute;
     width: 1175px;
@@ -130,6 +139,7 @@ input{
     filter: drop-shadow(4px, 10px, 15px rgba(0, 0, 0, 0.5));
 }
 
+/* retangulo relativo ao botão enviar*/
 .retangulo{
     display: inline;
     /*position:absolute;*/
@@ -137,7 +147,7 @@ input{
     height: 48px;
     left: 786px;
     top: 424px;
-    z-index: 4;
+    z-index: 3;
 
     background-color: #8257E5;
 }
@@ -150,6 +160,7 @@ input{
 }
 
 .linke{
+    
     
     position:absolute;
     width: 196px;
@@ -164,4 +175,13 @@ input{
     font-size: 14px;
     line-height: 19px;
     color: #8257E5;
+}
+
+a{
+    
+    width: 24px;
+    height: 24px;
+    left: 208px;
+    top:522px;
+    z-index: 3;
 }
